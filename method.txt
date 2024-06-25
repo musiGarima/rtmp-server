@@ -1,0 +1,13 @@
+1. start rtpm server and connect to db
+2. check stream key from db, if true let user to stream
+
+
+
+// const user = new userDetail()
+// console.log(user.stremKey)
+// const streamInfo = nms.getSession(id).getStreamInfo();
+// console.log('Stream info:', streamInfo);
+// await axios.post(`http://localhost:3500/test`, {
+//     id,
+//     streamPath: StreamPath,
+// })

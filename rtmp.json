@@ -1,0 +1,20 @@
+{
+    "port": 1935,
+    "chunk_size": 4096,
+      "gop_cache": false,
+      "ping": 30,
+      "ping_timeout": 60,
+      "debug": true,
+      "allow_input": "['^live_.*$', '^test_.*$']",
+      "deny_input": "['^private_.*$']",
+      "denied_clients": "['192.168.1.100', '10.0.0.0/8']",
+      "rtmp_idle_timeout": 120,
+      "ssl": {
+        "key": "'/path/to/private.key'",
+        "cert": "'/path/to/certificate.crt'"
+      },
+      "ssl_port": 443,
+      "ssl_allow_insecure": false,
+      "reconnect_time": 10
+}
+  
